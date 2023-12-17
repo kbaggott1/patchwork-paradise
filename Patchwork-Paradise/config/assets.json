@@ -397,7 +397,7 @@
 		},
 		{
 			"name": "coin-effect",
-			"path": "../assets/sounds/effects/Coin-Reward.wav",
+			"path": "../assets/sounds/effects/coin-reward.wav",
 			"size": 1,
 			"volume": 0.5
 		}
