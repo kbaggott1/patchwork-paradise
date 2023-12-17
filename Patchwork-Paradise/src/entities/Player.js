@@ -116,7 +116,6 @@ export default class Player extends GameEntity {
 		super.update(dt);
 		this.currentAnimation.update(dt);
 		this.currentFrame = this.currentAnimation.getCurrentFrame();
-		console.log(this)
 	}
 
 	isInventoryFull() {
