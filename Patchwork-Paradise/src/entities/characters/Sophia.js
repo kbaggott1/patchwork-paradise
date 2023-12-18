@@ -34,7 +34,7 @@ export default class Sophia extends NPC {
 		this.start = new DialogueNode('Just finished studying, I need a vacation...', Panel.DIALOGUE, null);
 
 		let node = this.start;
-		node.next = new DialogueNode('Bing Bong Bye', Panel.DIALOGUE, 'end');
+		node.next = new DialogueNode('Bye!!', Panel.DIALOGUE, 'end');
 		return this.start;
 	}
 }
